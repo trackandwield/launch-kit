@@ -1,6 +1,11 @@
 # Launch kit
 
-Turn one feature brief into a full launch package (positioning, blog post, release notes, sales one-pager, social posts and launch email), written in a company's brand voice, checked by a reviewer agent, and approved by a product marketer.
+Turn company intel and a feature brief into a full launch package, written in the company's brand voice, checked by a reviewer agent, and approved by the right people.
+
+- **Foundation assets** (one set per product, refreshed from intel): ideal customer profile, buyer personas, a battlecard per competitor, competitive landscape, and the facts in the messaging framework.
+- **Launch assets** (one set per brief, sized by launch tier): positioning, blog post, release notes, sales one-pager, social posts, launch email, landing page copy, sales talk track, internal FAQ, demo video script, press release, and a pitch deck filled into the company's own slide template.
+
+The full list, with each asset's inputs, owner and approvers, is in `kit/assets.yaml`.
 
 > **Demo content is unofficial.** The demo uses Loom, a real Atlassian product, with public facts and Atlassian's public writing guidelines. The launches are invented for practice. Nothing here is an Atlassian announcement, and this project isn't affiliated with Atlassian.
 
@@ -28,6 +33,10 @@ The kit is company-agnostic. Everything reusable lives in `kit/`; each company a
 | `companies/<company>/brand/` | The company's voice, tone and style rules, plus real examples to learn from |
 | `companies/<company>/products/<product>/messaging-framework.md` | The product's facts (with sources), positioning, pillars and personas |
 | `companies/<company>/products/<product>/briefs/` | Launch briefs for that product |
+| `kit/assets.yaml` | Every asset: inputs, tiers, format, owner and approvers |
+| `docs/workflow.md` | Launch manifests, asset states and approvals, designed for a project manager agent |
+| `docs/intel-contract.md` | The intel files the kit reads, so any source can feed it |
+| `docs/deck-templates.md` | How decks get filled without losing the company's style |
 | `docs/decision-log.md` | Why things are the way they are |
 
 **Demo:** `companies/atlassian/products/loom/` has five practice briefs. Tier 1 gets all six assets, tier 2 skips positioning, tier 3 gets release notes and social only. Brief 5 is deliberately incomplete.
