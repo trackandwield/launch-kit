@@ -1,0 +1,46 @@
+# HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
+# and every number marked hypothetical are invented. Not an Atlassian announcement.
+# Sample brief 4 of 5: an enterprise launch where precise legal wording matters.
+id: loom-au-data-residency
+title: Data residency in Australia
+tier: 2
+
+what: Enterprise customers can choose to store their Loom videos, transcripts and AI outputs in Australia.
+who: [it_admin]
+problem: "Our security team won't approve Loom until recordings stay in Australia."
+why_now: Data residency was a requirement in a growing share of Australian enterprise deals.
+
+how_it_works:
+  - An admin chooses Australia as the data residency location in Atlassian Administration.
+  - New and existing videos move to the Australian region; the admin sees the migration status.
+
+pillars: [company_ready]
+
+proof:
+  - claim: Covers videos, transcripts and AI-generated summaries.
+    source: Product spec (hypothetical)
+  - claim: Managed in Atlassian Administration alongside other Atlassian apps.
+    source: Product spec (hypothetical)
+
+limitations:
+  - Some third-party integrations may process data outside Australia; the docs list them.
+  - Migration of existing videos can take several days for large workspaces.
+
+availability:
+  date: "2026-12-09"
+  plans: [enterprise]
+  regions: [au]
+  status: ga
+
+pricing_change: No extra cost on Enterprise.
+
+cta:
+  primary: Talk to your account team about data residency
+  link: https://example.com/loom/data-residency
+
+contacts:
+  pm: Loom platform PM (fictional)
+  pmm: Loom PMM (fictional)
+  eng: Loom infrastructure lead (fictional)
+
+notes: Legal approved only "helps you meet data residency requirements". Never say "compliant" on its own.

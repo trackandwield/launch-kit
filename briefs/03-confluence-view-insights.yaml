@@ -1,0 +1,43 @@
+# HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
+# and every number marked hypothetical are invented. Not an Atlassian announcement.
+# Sample brief 3 of 5: a minor launch (release notes and social only).
+id: confluence-view-insights
+title: Viewer insights for Looms in Confluence
+tier: 3
+
+what: Looms embedded in Confluence pages now show the creator who watched and how far, the same insights they get on loom.com.
+who: [team_lead]
+problem: "I embed a walkthrough in the onboarding page and have no idea if anyone watches it."
+why_now: Confluence is one of the most common places Looms are embedded.
+
+how_it_works:
+  - Embed a Loom in a Confluence page as usual.
+  - Open the video on loom.com or in the Loom app to see viewers from Confluence alongside everyone else.
+
+pillars: [video_becomes_work]
+
+proof:
+  - claim: Views from Confluence embeds count in the same viewer insights as other views.
+    source: Product spec (hypothetical)
+
+limitations:
+  - Viewers must be signed in to Atlassian for their name to show; anonymous views count but aren't named.
+
+availability:
+  date: "2026-11-25"
+  plans: [business, business_plus_ai, enterprise]
+  regions: []
+  status: ga
+
+pricing_change: ""
+
+cta:
+  primary: See who watched your embedded Looms
+  link: https://example.com/loom/confluence-insights
+
+contacts:
+  pm: Loom PM (fictional)
+  pmm: Loom PMM (fictional)
+  eng: Confluence integrations lead (fictional)
+
+notes: Viewers' privacy settings still apply; say so in release notes.

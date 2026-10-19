@@ -1,0 +1,48 @@
+# HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
+# and every number marked hypothetical are invented. Not an Atlassian announcement.
+# Sample brief 1 of 5: a major launch with everything filled in.
+id: loom-auto-translate
+title: Auto-translate
+tier: 1
+
+what: Viewers can watch any Loom with captions and an AI voice-over in their own language, chosen from 10 languages, without the creator recording it again.
+who: [team_lead, customer_facing]
+problem: "Half my team is in Brazil and Japan. I either record three versions of every update or accept that some people only get half of it."
+why_now: Global teams already use Loom transcription in 50+ languages; translation was the most requested next step.
+
+how_it_works:
+  - Record and share a Loom as usual.
+  - The viewer picks a language from the player menu.
+  - Captions and an AI voice-over play in that language; the creator's video stays as it was.
+
+pillars: [show_dont_schedule, video_becomes_work]
+
+proof:
+  - claim: Voice-over and captions in 10 languages at launch.
+    source: Product spec (hypothetical)
+  - claim: In a beta with 30 teams, translated videos were watched to the end about as often as videos in the viewer's own language.
+    source: Hypothetical beta data (practice only)
+
+limitations:
+  - The AI voice-over doesn't match the creator's own voice.
+  - Translations aren't reviewed by a person, so viewers see a note saying they're machine translated.
+  - Not available for videos longer than 45 minutes.
+
+availability:
+  date: "2026-11-18"
+  plans: [business_plus_ai, enterprise]
+  regions: []
+  status: ga
+
+pricing_change: ""
+
+cta:
+  primary: Try it on your next Loom
+  link: https://example.com/loom/auto-translate
+
+contacts:
+  pm: Loom PM (fictional)
+  pmm: Loom PMM (fictional)
+  eng: Loom engineering lead (fictional)
+
+notes: Don't claim it replaces human translation for customer-facing or legal content.

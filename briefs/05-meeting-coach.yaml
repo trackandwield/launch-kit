@@ -1,0 +1,43 @@
+# HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
+# and every number marked hypothetical are invented. Not an Atlassian announcement.
+# Sample brief 5 of 5: deliberately incomplete. The agents should name the gaps
+# (no proof, no date, unclear plans, no pricing decision, no CTA) instead of
+# filling them, and must not invent numbers to make the AI angle sound bigger.
+id: loom-meeting-coach
+title: Meeting coach
+tier: 1
+
+what: After a recorded meeting, Loom suggests which parts could have been an async video instead.
+who: [team_lead]
+problem: "Our recurring meetings keep growing and nobody knows which ones to cut."
+why_now: ""
+
+how_it_works:
+  - Record a meeting with Loom.
+  - A suggestions panel appears after the meeting ends.
+
+pillars: [show_dont_schedule]
+
+proof: []
+
+limitations:
+  - Suggestions are only as good as the meeting recording.
+
+availability:
+  date: ""
+  plans: []
+  regions: []
+  status: beta
+
+pricing_change: "TBD: might be Business + AI only."
+
+cta:
+  primary: ""
+  link: ""
+
+contacts:
+  pm: Loom PM (fictional)
+  pmm: Loom PMM (fictional)
+  eng: ""
+
+notes: ""

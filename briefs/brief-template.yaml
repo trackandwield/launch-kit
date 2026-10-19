@@ -1,0 +1,44 @@
+# Feature brief template (DRAFT for the PMM to review)
+# Practice launches for a real product: the product facts are public, the
+# launches are hypothetical. Mark any invented number's source as hypothetical.
+# One brief per launch. The agents only state facts that are here or in
+# framework/messaging-framework.md. Leave a field empty rather than guessing:
+# the agents name gaps instead of filling them.
+
+id: ""                    # short slug, e.g. loom-auto-translate
+title: ""                 # internal name of the launch
+tier: ""                  # 1 = major (all six assets), 2 = notable (no positioning refresh), 3 = minor (release notes and social only)
+
+what: ""                  # what's launching, in one or two plain sentences
+who: []                   # personas from the framework, e.g. [team_lead, builder]
+problem: ""               # the pain it removes, in the customer's words
+why_now: ""               # why this, why now (customer demand, market shift, a gap closed)
+
+how_it_works: []          # 2 to 5 steps a user takes, concrete enough for a blog walkthrough
+
+pillars: []               # framework pillars it supports, e.g. [video_becomes_work]
+
+proof:                    # every number or fact the assets may use, each with a source
+  - claim: ""
+    source: ""            # e.g. beta survey, internal benchmark, product spec
+
+limitations: []           # what it doesn't do yet; assets mention these where a buyer would care
+
+availability:
+  date: ""                # launch date (YYYY-MM-DD)
+  plans: []               # which plans get it, e.g. [free, paid]
+  regions: []             # leave empty if everywhere
+  status: ""              # ga | beta | preview
+
+pricing_change: ""        # empty if none
+
+cta:                      # what readers should do next
+  primary: ""
+  link: ""
+
+contacts:                 # who owns what (also seeds the launch tracker later); fictional roles, never real people
+  pm: ""
+  pmm: ""
+  eng: ""
+
+notes: ""                 # anything else the writer should know, including what not to say

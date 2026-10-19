@@ -1,0 +1,47 @@
+# HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
+# and every number marked hypothetical are invented. Not an Atlassian announcement.
+# Sample brief 2 of 5: a cross-product launch (Loom plus Jira Service Management).
+id: jsm-video-requests
+title: Video in support requests
+tier: 2
+
+what: Customers submitting a request in a Jira Service Management portal can record a Loom of the problem and attach it, without a Loom account.
+who: [builder, customer_facing]
+problem: "Half our tickets start with 'it doesn't work' and a screenshot. We spend the first day asking what they clicked."
+why_now: Support teams already ask customers to send Loom videos by email; this puts it in the request form.
+
+how_it_works:
+  - An admin turns on video requests for a service project.
+  - The customer selects Record a video on the request form and records their screen.
+  - The agent sees the video, transcript and AI summary in the request.
+
+pillars: [video_becomes_work, show_dont_schedule]
+
+proof:
+  - claim: Customers don't need a Loom account to record.
+    source: Product spec (hypothetical)
+  - claim: Agents see an AI summary of the video on the request.
+    source: Product spec (hypothetical)
+
+limitations:
+  - Recordings are limited to 5 minutes.
+  - Only for Jira Service Management Cloud.
+
+availability:
+  date: "2026-12-02"
+  plans: [jsm_standard, jsm_premium, jsm_enterprise]
+  regions: []
+  status: ga
+
+pricing_change: No extra cost for the service project; agents viewing videos don't need a Loom seat.
+
+cta:
+  primary: Turn on video requests in your service project
+  link: https://example.com/jsm/video-requests
+
+contacts:
+  pm: Jira Service Management PM (fictional)
+  pmm: Loom PMM (fictional)
+  eng: Integrations engineering lead (fictional)
+
+notes: Use full product names (Jira Service Management, never JSM) in customer copy.
