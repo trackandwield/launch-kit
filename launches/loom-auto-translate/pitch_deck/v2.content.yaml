@@ -1,0 +1,137 @@
+# Pitch deck content for the Loom auto-translate launch, version 2: the v1 check found the
+# button URL wraps (v1.check.json), so the button now names the action and the slide carries the link.
+# Written to companies/atlassian/deck/template-map.yaml: each key is a box on that template
+# slide, and each value fits its max_chars. A list is one paragraph per item; null deletes the box.
+# Facts come from the brief (hypothetical launch) and the framework's public facts table.
+template: companies/atlassian/deck/sample-template.pptx
+brief: companies/atlassian/products/loom/briefs/01-auto-translate.yaml
+
+chrome:
+  Logo word: Loom
+  Footer: Unofficial concept made for a portfolio. Not an Atlassian announcement, and not affiliated with Atlassian.
+  Slide number: "{n}"
+
+# Words from the template's sample content that must not survive.
+leftover_words: [Pipeline Pulse, Sample Co, pipeline, samplecompany, Northwind]
+
+slides:
+  - slide: 1
+    boxes:
+      "5": NEW IN LOOM
+      "6": Auto-translate for Loom
+      "7": Record once. Everyone watches in their own language, with captions and an AI voice-over.
+      "8": Loom product marketing  ·  Concept launch  ·  November 2026
+
+  - slide: 2
+    boxes:
+      "3": AGENDA
+      "4": What we'll cover today
+      "6": Why one update turns into three
+      "8": Meet auto-translate
+      "10": How it works
+      "12": What the beta showed
+      "14": Plans and next steps
+      "15": null
+      "16": null
+
+  - slide: 3
+    boxes:
+      "3": THE PROBLEM
+      "4": Global teams record the same update twice
+      "6": 3x
+      "7": The takes a lead records of one update for a team in three languages.
+      "8":
+        - Leads re-record every update for each language on the team
+        - Or they send one version, and some people only get half of it
+        - Loom already transcribes in 50+ languages, but viewers still read in the original
+        - Time spent on extra takes is time not spent on the work
+
+  - slide: 4
+    boxes:
+      "3": THE SOLUTION
+      "4": One recording, every language on your team
+      "7": Record once
+      "8": Share one Loom with the whole team. No second take for each region.
+      "11": Pick a language
+      "12": Viewers choose from 10 languages in the player and get captions plus an AI voice-over.
+      "15": Nothing to redo
+      "16": Your original video stays exactly as you recorded it. Translation is added for the viewer.
+
+  - slide: 5
+    boxes:
+      "3": HOW IT WORKS
+      "4": Three steps, and only one of them is yours
+      "7": Record and share
+      "8": Record and share a Loom the way you do today.
+      "10": Choose a language
+      "11": The viewer picks their language from the player menu.
+      "13": Watch and listen
+      "14": Captions and an AI voice-over play in that language.
+
+  - slide: 6
+    boxes:
+      "4": Half my team is in Brazil and Japan. I either record three versions of every update or accept that some people only get half of it.
+      "5":
+        - Team lead, global product team
+        - Composite quote from the launch brief (hypothetical)
+      "6": "10"
+      "7": languages at launch
+      "8": "30"
+      "9": teams in the beta (hypothetical)
+      "10": 50+
+      "11": languages Loom already transcribes
+
+  - slide: 7
+    boxes:
+      "3": PLANS
+      "4": Included with Loom's AI plans
+      "5.r0c1": Business
+      "5.r0c2": Business + AI
+      "5.r0c3": Enterprise
+      "5.r1c0": Price
+      "5.r1c1": $18 per user/month
+      "5.r1c2": $24 per user/month
+      "5.r1c3": Contact sales
+      "5.r2c0": Auto-translate
+      "5.r2c1": Not included
+      "5.r2c2": Included
+      "5.r2c3": Included
+      "5.r3c0": AI features
+      "5.r3c1": Auto titles
+      "5.r3c2": Summaries, chapters, AI workflows
+      "5.r3c3": Summaries, chapters, AI workflows
+      "5.r4c0": Admin
+      "5.r4c1": Standard
+      "5.r4c2": Standard
+      "5.r4c3": SSO, SCIM, custom retention
+      "6": Prices from atlassian.com/software/loom/pricing, checked October 2026. Annual billing saves up to 17%.
+
+  - slide: 8
+    boxes:
+      "3": THE OPTIONS
+      "4": How teams cover more than one language today
+      "5.r0c1": Auto-translate
+      "5.r0c2": Record each language
+      "5.r0c3": Captions only
+      "5.r1c0": Creator effort
+      "5.r1c1": Record once
+      "5.r1c2": One take per language
+      "5.r1c3": Add a file per language
+      "5.r2c0": Viewer hears their language
+      "5.r2c1": Yes, AI voice-over
+      "5.r2c2": Yes, creator's voice
+      "5.r2c3": No, reads captions
+      "5.r3c0": Checked by a person
+      "5.r3c1": No, marked as machine translated
+      "5.r3c2": "Yes"
+      "5.r3c3": Depends on the source
+      "5.r4c0": Longest video
+      "5.r4c1": 45 minutes
+      "5.r4c2": No limit
+      "5.r4c3": No limit
+
+  - slide: 9
+    boxes:
+      "4": Try it on your next Loom
+      "5": Arrives November 18, 2026 on Business + AI and Enterprise. example.com/loom/auto-translate
+      "6": Try auto-translate
