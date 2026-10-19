@@ -1,6 +1,8 @@
 # HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
 # and every number marked hypothetical are invented. Not an Atlassian announcement.
 # Sample brief 2 of 5: a cross-product launch (Loom plus Jira Service Management).
+company: atlassian
+product: loom
 id: jsm-video-requests
 title: Video in support requests
 tier: 2

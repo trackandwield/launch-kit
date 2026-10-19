@@ -1,6 +1,8 @@
 # HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
 # and every number marked hypothetical are invented. Not an Atlassian announcement.
 # Sample brief 1 of 5: a major launch with everything filled in.
+company: atlassian
+product: loom
 id: loom-auto-translate
 title: Auto-translate
 tier: 1

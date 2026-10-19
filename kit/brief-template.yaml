@@ -1,10 +1,12 @@
 # Feature brief template (DRAFT for the PMM to review)
-# Practice launches for a real product: the product facts are public, the
-# launches are hypothetical. Mark any invented number's source as hypothetical.
+# Copy into companies/<company>/products/<product>/briefs/. For practice launches
+# of a real product, mark any invented number's source as hypothetical.
 # One brief per launch. The agents only state facts that are here or in
-# framework/messaging-framework.md. Leave a field empty rather than guessing:
+# the product's messaging-framework.md. Leave a field empty rather than guessing:
 # the agents name gaps instead of filling them.
 
+company: ""               # folder name under companies/, e.g. atlassian
+product: ""               # folder name under companies/<company>/products/, e.g. loom
 id: ""                    # short slug, e.g. loom-auto-translate
 title: ""                 # internal name of the launch
 tier: ""                  # 1 = major (all six assets), 2 = notable (no positioning refresh), 3 = minor (release notes and social only)

@@ -1,6 +1,8 @@
 # HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
 # and every number marked hypothetical are invented. Not an Atlassian announcement.
 # Sample brief 3 of 5: a minor launch (release notes and social only).
+company: atlassian
+product: loom
 id: confluence-view-insights
 title: Viewer insights for Looms in Confluence
 tier: 3

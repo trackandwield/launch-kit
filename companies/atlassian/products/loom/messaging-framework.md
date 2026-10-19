@@ -2,7 +2,7 @@
 
 > **DRAFT for review.** Claude wrote this from Loom's public pages as a starting point. Rewrite anything that isn't how you'd position it. The agents treat this file as the source of truth.
 >
-> **Concept work, not affiliated with Atlassian.** The facts below are public; the launches in `briefs/` are invented for practice. Every generated asset carries this footer: *"Unofficial concept by Hal [surname] for a portfolio. Not an Atlassian announcement."*
+> **Concept work, not affiliated with Atlassian.** The facts below are public; the launches in `briefs/` are invented for practice. Every generated asset carries the disclaimer in `companies/atlassian/company.yaml`.
 
 ## Product facts (public; the agents may state these)
 
@@ -58,7 +58,7 @@ For **teams that work across time zones and calendars**, who **lose hours to mee
 
 ## Voice
 
-Follow `brand/atlassian/voice-and-style.md`: bold, optimistic, and practical, with a wink, in sentence case, with contractions and active voice.
+Follow `companies/atlassian/brand/voice-and-style.md`: bold, optimistic, and practical, with a wink, in sentence case, with contractions and active voice.
 
 ## Open questions for the PMM
 

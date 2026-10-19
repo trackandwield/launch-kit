@@ -7,5 +7,10 @@
 - **Rejected:** a fictional company (Acme Observe, from the model bench). Easier, but it would only show generic copywriting.
 
 ## 2026-10-19: brand rules live in one folder per company
-- **Choice:** `brand/<company>/` holds the voice rules and style references; the writer and reviewer skills read whichever brand the brief names.
+- **Choice:** `brand/<company>/` (now `companies/<company>/brand/`, see below) holds the voice rules and style references; the writer and reviewer skills read whichever brand the brief names.
 - **Why:** the same skills can write for another company by adding a folder, which is the point of a kit.
+
+## 2026-10-19: company-agnostic layout
+- **Choice:** split the repo into `kit/` (rules, templates and, later, specs and skills that work for any company) and `companies/<company>/` (brand rules, disclaimer, and one folder per product with its framework and briefs). Each brief names its company and product.
+- **Why:** Hal wants to run the same workflow on other products. With this split, adding a product means adding files, not changing the kit.
+- **Rule of thumb:** if a file mentions a specific company or product, it belongs under `companies/`; otherwise it belongs under `kit/`.

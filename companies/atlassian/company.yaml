@@ -1,0 +1,12 @@
+name: Atlassian
+brand:
+  voice: brand/voice-and-style.md
+  references: brand/style-references.md
+  banned_words: []
+disclaimer: "Unofficial concept made for a portfolio. Not an Atlassian announcement, and not affiliated with Atlassian."
+sources:
+  - url: https://atlassian.design/foundations/content/voice-tone
+    checked: 2026-10-19
+  - url: https://atlassian.design/foundations/content/language-and-grammar
+    checked: 2026-10-19
+products: [loom]
