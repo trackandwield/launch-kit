@@ -31,3 +31,7 @@
 ## 2026-10-19: Test deck filling on a stand-in Atlassian template
 
 No official Atlassian slide template is public (shared on request; partner templates need sign-in), and GitHub's published one is staff-only. We built a stand-in in Atlassian's public colors, structured like a designer deck, and proved map, fill and check on it with the Loom auto-translate deck. A real company template replaces it when one is available.
+
+## 2026-10-20: Intel export is per product and includes unreviewed rows
+- **Choice:** a product's research lands in `companies/<company>/products/<product>/intel/`, next to its framework and briefs. Proposed (unreviewed) rows come over marked as proposed; only rejected rows are left out.
+- **Why:** a launch is about one product, and Loom's competitors differ from Atlassian's. Nobody has reviewed the engine's rows yet, so an approved-only export would be empty; marking them lets the reviewer flag claims that rest only on unchecked facts. `--active-only` switches to reviewed rows once there are enough.
