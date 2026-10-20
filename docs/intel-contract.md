@@ -5,6 +5,8 @@ The kit never calls the intel engine. It reads an export, so any source that wri
 - `companies/<company>/products/<product>/intel/` when the research is about one product (Loom), which is the usual case for a launch;
 - `companies/<company>/intel/` when it's about the whole company.
 
+These folders are git-ignored: the research holds review quotes and named people, so it stays on the machine that ran the export, and only the assets built from it are committed.
+
 The first source is [competitive-intel-engine](https://github.com/trackandwield/competitive-intel-engine):
 
 ```

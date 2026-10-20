@@ -3,3 +3,7 @@ __pycache__/
 .env
 out/
 *.pyc
+
+# Research exported by the intel engine stays local (it holds review quotes and named people); see docs/intel-contract.md
+companies/*/intel/
+companies/*/products/*/intel/
