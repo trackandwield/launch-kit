@@ -1,0 +1,752 @@
+# Made by `python tools/deck.py map`, then marked by a person: `use` says what each slide is for,
+# keep: true leaves a box as it is, chrome: true boxes are set once per deck (logo, footer, page number).
+template: companies/atlassian/deck/sample-template.pptx
+slides:
+- slide: 1
+  use: title
+  boxes:
+  - key: '5'
+    name: TextBox 4
+    sample: PRODUCT LAUNCH
+    max_lines: 1
+    max_chars: 33
+    size: 14.0
+  - key: '6'
+    name: TextBox 5
+    sample: Introducing Pipeline Pulse
+    max_lines: 2
+    max_chars: 40
+    size: 54.0
+  - key: '7'
+    name: TextBox 6
+    sample: Live health checks for every data pipeline, right where your team already works.
+    max_lines: 2
+    max_chars: 90
+    size: 22.0
+  - key: '8'
+    name: TextBox 7
+    sample: Jamie Rivera  ·  Product Marketing  ·  March 2026
+    max_lines: 1
+    max_chars: 59
+    size: 14.0
+  - key: '10'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '11'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '12'
+    name: Slide number
+    sample: '1'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 2
+  use: agenda (up to 6 items)
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: AGENDA
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: What we'll cover today
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: '5'
+    name: Oval 4
+    sample: '01'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '6'
+    name: TextBox 5
+    sample: The problem with silent pipeline failures
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '7'
+    name: Oval 6
+    sample: '02'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '8'
+    name: TextBox 7
+    sample: Meet Pipeline Pulse
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '9'
+    name: Oval 8
+    sample: '03'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '10'
+    name: TextBox 9
+    sample: How it works
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '11'
+    name: Oval 10
+    sample: '04'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '12'
+    name: TextBox 11
+    sample: What customers are saying
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '13'
+    name: Oval 12
+    sample: '05'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '14'
+    name: TextBox 13
+    sample: Plans and pricing
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '15'
+    name: Oval 14
+    sample: '06'
+    max_lines: 2
+    max_chars: 6
+    size: 12.0
+    keep: true
+  - key: '16'
+    name: TextBox 15
+    sample: Next steps
+    max_lines: 1
+    max_chars: 63
+    size: 20.0
+  - key: '18'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '19'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '20'
+    name: Slide number
+    sample: '2'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 3
+  use: 'problem: one big number and up to 4 bullets'
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: THE PROBLEM
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: Broken pipelines are found by customers, not teams
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: '6'
+    name: TextBox 5
+    sample: 6 hours
+    max_lines: 1
+    max_chars: 8
+    size: 60.0
+  - key: '7'
+    name: TextBox 6
+    sample: Average time before a failed nightly job is noticed by the data team.
+    max_lines: 5
+    max_chars: 140
+    size: 18.0
+  - key: '8'
+    name: TextBox 7
+    sample: '•  Alerts fire in five different tools, so nobody owns them
+
+      •  Dashboards quietly show stale numbers to leadership
+
+      •  Engineers spend Monday mornings tracing what broke on Friday
+
+      •  Every fix starts with the same question: who changed what?'
+    max_lines: 11
+    max_chars: 528
+    size: 20.0
+  - key: '10'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '11'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '12'
+    name: Slide number
+    sample: '3'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 4
+  use: 'solution: three pillars'
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: THE SOLUTION
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: One place to see, fix and prevent pipeline issues
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: '7'
+    name: TextBox 6
+    sample: See it first
+    max_lines: 1
+    max_chars: 18
+    size: 24.0
+  - key: '8'
+    name: TextBox 7
+    sample: Health checks run after every job and flag problems in seconds.
+    max_lines: 6
+    max_chars: 162
+    size: 16.0
+  - key: '11'
+    name: TextBox 10
+    sample: Fix it fast
+    max_lines: 1
+    max_chars: 18
+    size: 24.0
+  - key: '12'
+    name: TextBox 11
+    sample: Every alert links to the run, the change and the owner.
+    max_lines: 6
+    max_chars: 162
+    size: 16.0
+  - key: '15'
+    name: TextBox 14
+    sample: Stop repeats
+    max_lines: 1
+    max_chars: 18
+    size: 24.0
+  - key: '16'
+    name: TextBox 15
+    sample: Weekly reports show which pipelines break most and why.
+    max_lines: 6
+    max_chars: 162
+    size: 16.0
+  - key: '18'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '19'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '20'
+    name: Slide number
+    sample: '4'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 5
+  use: 'how it works: three steps'
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: HOW IT WORKS
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: Up and running in three steps
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: '6'
+    name: Pentagon 5
+    sample: Step 1
+    max_lines: 3
+    max_chars: 99
+    size: 16.0
+    keep: true
+  - key: '7'
+    name: TextBox 6
+    sample: Connect
+    max_lines: 1
+    max_chars: 22
+    size: 22.0
+  - key: '8'
+    name: TextBox 7
+    sample: Link your scheduler in two clicks. No agents to install.
+    max_lines: 5
+    max_chars: 150
+    size: 16.0
+  - key: '9'
+    name: Chevron 8
+    sample: Step 2
+    max_lines: 3
+    max_chars: 99
+    size: 16.0
+    keep: true
+  - key: '10'
+    name: TextBox 9
+    sample: Choose checks
+    max_lines: 1
+    max_chars: 22
+    size: 22.0
+  - key: '11'
+    name: TextBox 10
+    sample: Pick from 40 ready-made checks or write your own in SQL.
+    max_lines: 5
+    max_chars: 150
+    size: 16.0
+  - key: '12'
+    name: Chevron 11
+    sample: Step 3
+    max_lines: 3
+    max_chars: 99
+    size: 16.0
+    keep: true
+  - key: '13'
+    name: TextBox 12
+    sample: Get alerts
+    max_lines: 1
+    max_chars: 22
+    size: 22.0
+  - key: '14'
+    name: TextBox 13
+    sample: Issues land in your team's chat with the owner tagged.
+    max_lines: 5
+    max_chars: 150
+    size: 16.0
+  - key: '16'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '17'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '18'
+    name: Slide number
+    sample: '5'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 6
+  use: 'proof: one quote and three numbers'
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: “
+    max_lines: 1
+    max_chars: 1
+    size: 120.0
+    keep: true
+  - key: '4'
+    name: TextBox 3
+    sample: We used to hear about broken reports from the CFO. Now we fix them before anyone opens a dashboard.
+    max_lines: 5
+    max_chars: 160
+    size: 26.0
+  - key: '5'
+    name: TextBox 4
+    sample: 'Priya Shah
+
+      Head of Data, Northwind Outfitters'
+    max_lines: 2
+    max_chars: 104
+    size: 16.0
+  - key: '6'
+    name: TextBox 5
+    sample: 83%
+    max_lines: 1
+    max_chars: 12
+    size: 48.0
+  - key: '7'
+    name: TextBox 6
+    sample: fewer stale dashboards
+    max_lines: 1
+    max_chars: 34
+    size: 18.0
+  - key: '8'
+    name: TextBox 7
+    sample: 4x
+    max_lines: 1
+    max_chars: 12
+    size: 48.0
+  - key: '9'
+    name: TextBox 8
+    sample: faster time to fix
+    max_lines: 1
+    max_chars: 34
+    size: 18.0
+  - key: '10'
+    name: TextBox 9
+    sample: 12 min
+    max_lines: 1
+    max_chars: 12
+    size: 48.0
+  - key: '11'
+    name: TextBox 10
+    sample: median time to detect
+    max_lines: 1
+    max_chars: 34
+    size: 18.0
+  - key: '13'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '14'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '15'
+    name: Slide number
+    sample: '6'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 7
+  use: pricing table (3 plans, 4 rows)
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: PLANS
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: Simple pricing that grows with you
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: 5.r0c0
+    name: Table 4
+    sample: ''
+    size: 14.0
+  - key: 5.r0c1
+    name: Table 4
+    sample: Free
+    size: 14.0
+  - key: 5.r0c2
+    name: Table 4
+    sample: Standard
+    size: 14.0
+  - key: 5.r0c3
+    name: Table 4
+    sample: Premium
+    size: 14.0
+  - key: 5.r1c0
+    name: Table 4
+    sample: Price
+    size: 14.0
+  - key: 5.r1c1
+    name: Table 4
+    sample: $0
+    size: 14.0
+  - key: 5.r1c2
+    name: Table 4
+    sample: $12 per user/month
+    size: 14.0
+  - key: 5.r1c3
+    name: Table 4
+    sample: $20 per user/month
+    size: 14.0
+  - key: 5.r2c0
+    name: Table 4
+    sample: Pipelines
+    size: 14.0
+  - key: 5.r2c1
+    name: Table 4
+    sample: Up to 5
+    size: 14.0
+  - key: 5.r2c2
+    name: Table 4
+    sample: Unlimited
+    size: 14.0
+  - key: 5.r2c3
+    name: Table 4
+    sample: Unlimited
+    size: 14.0
+  - key: 5.r3c0
+    name: Table 4
+    sample: Checks
+    size: 14.0
+  - key: 5.r3c1
+    name: Table 4
+    sample: Ready-made only
+    size: 14.0
+  - key: 5.r3c2
+    name: Table 4
+    sample: Ready-made and custom
+    size: 14.0
+  - key: 5.r3c3
+    name: Table 4
+    sample: Ready-made and custom
+    size: 14.0
+  - key: 5.r4c0
+    name: Table 4
+    sample: Support
+    size: 14.0
+  - key: 5.r4c1
+    name: Table 4
+    sample: Community
+    size: 14.0
+  - key: 5.r4c2
+    name: Table 4
+    sample: Business hours
+    size: 14.0
+  - key: 5.r4c3
+    name: Table 4
+    sample: 24/7 with 1-hour response
+    size: 14.0
+  - key: '6'
+    name: TextBox 5
+    sample: Save 15% with annual billing.
+    max_lines: 1
+    max_chars: 111
+    size: 14.0
+  - key: '8'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '9'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '10'
+    name: Slide number
+    sample: '7'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 8
+  use: comparison table (3 options, 4 rows)
+  boxes:
+  - key: '3'
+    name: TextBox 2
+    sample: WHY US
+    max_lines: 1
+    max_chars: 93
+    size: 12.0
+  - key: '4'
+    name: TextBox 3
+    sample: How Pipeline Pulse compares
+    max_lines: 1
+    max_chars: 50
+    size: 32.0
+  - key: 5.r0c0
+    name: Table 4
+    sample: ''
+    size: 14.0
+  - key: 5.r0c1
+    name: Table 4
+    sample: Pipeline Pulse
+    size: 14.0
+  - key: 5.r0c2
+    name: Table 4
+    sample: DIY scripts
+    size: 14.0
+  - key: 5.r0c3
+    name: Table 4
+    sample: Legacy monitoring
+    size: 14.0
+  - key: 5.r1c0
+    name: Table 4
+    sample: Setup time
+    size: 14.0
+  - key: 5.r1c1
+    name: Table 4
+    sample: Minutes
+    size: 14.0
+  - key: 5.r1c2
+    name: Table 4
+    sample: Weeks
+    size: 14.0
+  - key: 5.r1c3
+    name: Table 4
+    sample: Days
+    size: 14.0
+  - key: 5.r2c0
+    name: Table 4
+    sample: Knows who owns each job
+    size: 14.0
+  - key: 5.r2c1
+    name: Table 4
+    sample: 'Yes'
+    size: 14.0
+  - key: 5.r2c2
+    name: Table 4
+    sample: 'No'
+    size: 14.0
+  - key: 5.r2c3
+    name: Table 4
+    sample: Partly
+    size: 14.0
+  - key: 5.r3c0
+    name: Table 4
+    sample: Alerts in team chat
+    size: 14.0
+  - key: 5.r3c1
+    name: Table 4
+    sample: 'Yes'
+    size: 14.0
+  - key: 5.r3c2
+    name: Table 4
+    sample: If you build it
+    size: 14.0
+  - key: 5.r3c3
+    name: Table 4
+    sample: Email only
+    size: 14.0
+  - key: 5.r4c0
+    name: Table 4
+    sample: Cost to maintain
+    size: 14.0
+  - key: 5.r4c1
+    name: Table 4
+    sample: Included
+    size: 14.0
+  - key: 5.r4c2
+    name: Table 4
+    sample: Engineer time
+    size: 14.0
+  - key: 5.r4c3
+    name: Table 4
+    sample: Annual contract
+    size: 14.0
+  - key: '7'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '8'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '9'
+    name: Slide number
+    sample: '8'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true
+- slide: 9
+  use: closing call to action
+  boxes:
+  - key: '4'
+    name: TextBox 3
+    sample: Try Pipeline Pulse free
+    max_lines: 1
+    max_chars: 24
+    size: 48.0
+  - key: '5'
+    name: TextBox 4
+    sample: Connect your first pipeline in under five minutes. No credit card needed.
+    max_lines: 2
+    max_chars: 106
+    size: 22.0
+  - key: '6'
+    name: Rounded Rectangle 5
+    sample: samplecompany.com/pulse
+    max_lines: 2
+    max_chars: 56
+    size: 16.0
+  - key: '8'
+    name: Logo word
+    sample: Sample Co
+    max_lines: 1
+    max_chars: 33
+    size: 12.0
+    chrome: true
+  - key: '9'
+    name: Footer
+    sample: Sample template for testing. Unofficial, not affiliated with Atlassian.
+    max_lines: 1
+    max_chars: 112
+    size: 9.0
+    chrome: true
+  - key: '10'
+    name: Slide number
+    sample: '9'
+    max_lines: 1
+    max_chars: 5
+    size: 10.0
+    chrome: true

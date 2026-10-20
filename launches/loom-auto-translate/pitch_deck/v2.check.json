@@ -1,0 +1,13 @@
+{
+  "deck": "launches/loom-auto-translate/pitch_deck/v2.pptx",
+  "slides": 9,
+  "issues": [
+    {
+      "kind": "cell_wraps",
+      "where": "slide 8 (template 8) box 5.r3c1 'Table 4'",
+      "lines": 2,
+      "text": "No, marked as machine translated"
+    }
+  ],
+  "ok": true
+}

@@ -37,6 +37,8 @@ The kit is company-agnostic. Everything reusable lives in `kit/`; each company a
 | `docs/workflow.md` | Launch manifests, asset states and approvals, designed for a project manager agent |
 | `docs/intel-contract.md` | The intel files the kit reads, so any source can feed it |
 | `docs/deck-templates.md` | How decks get filled without losing the company's style |
+| `tools/deck.py` | Maps a company's `.pptx` template, fills it with a launch's content and checks the result (`pip install -r tools/requirements.txt`) |
+| `launches/` | One folder per launch: content files, filled assets and check reports |
 | `docs/decision-log.md` | Why things are the way they are |
 
 **Demo:** `companies/atlassian/products/loom/` has five practice briefs. Tier 1 gets all six assets, tier 2 skips positioning, tier 3 gets release notes and social only. Brief 5 is deliberately incomplete.
