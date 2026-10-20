@@ -27,3 +27,7 @@
 ## 2026-10-19: pitch decks fill the company's own template
 - **Choice:** map a sample deck's layouts and text boxes once, write content to fit each box, and replace text in place (`docs/deck-templates.md`).
 - **Why:** generated slides drift from the brand; filling the real template keeps it. To be proven in a spike before the deck asset is built.
+
+## 2026-10-19: Test deck filling on a stand-in Atlassian template
+
+No official Atlassian slide template is public (shared on request; partner templates need sign-in), and GitHub's published one is staff-only. We built a stand-in in Atlassian's public colors, structured like a designer deck, and proved map, fill and check on it with the Loom auto-translate deck. A real company template replaces it when one is available.
