@@ -1,0 +1,192 @@
+# Every asset the kit makes, what it's built from, and who signs it off.
+# The writer and reviewer skills read this to know an asset's inputs; the project
+# manager agent (later) reads it to know the order of work and whom to ask.
+# Company-agnostic: names roles, never people. A launch's manifest assigns people to roles.
+
+roles:
+  pmm: Product marketer. Owns messaging; approves anything customer-facing.
+  pm: Product manager. Confirms the brief and that product claims are accurate.
+  sales_lead: Sales or enablement lead. Approves sales-facing assets.
+  support_lead: Support or customer success lead. Approves internal support content.
+  legal: Legal or compliance. Approves claims about security, pricing and data, and anything public on a major launch.
+  comms: Communications or PR. Approves the press release.
+  design: Design or brand. Approves visual assets (deck, one-pager layout).
+
+# layer: foundation = one per product (or per competitor), refreshed from intel;
+#        launch = one per brief, built on the foundation.
+# per: product | competitor | brief
+# tiers: which launch tiers get it (launch layer only)
+# inputs: intel = files from the intel export (see docs/intel-contract.md),
+#         framework = the product's messaging framework, brief = the launch brief,
+#         or other asset ids
+# format: md = Markdown, pptx = filled from the company's deck template, pdf = rendered
+
+assets:
+  # ---------- foundation ----------
+  - id: icp
+    name: Ideal customer profile
+    layer: foundation
+    per: product
+    inputs: [intel.customer_stories, intel.companies, intel.reviews, framework]
+    format: md
+    owner: pmm
+    approvers: [pmm, sales_lead]
+
+  - id: personas
+    name: Buyer personas
+    layer: foundation
+    per: product
+    inputs: [intel.customer_stories, intel.reviews, intel.perspectives, icp]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+
+  - id: battlecard
+    name: Competitor battlecard
+    layer: foundation
+    per: competitor
+    inputs: [intel.companies, intel.products, intel.plans, intel.reviews, intel.compliance, framework]
+    format: md
+    owner: pmm
+    approvers: [pmm, sales_lead]
+
+  - id: competitive_landscape
+    name: Competitive landscape
+    layer: foundation
+    per: product
+    inputs: [battlecard, intel.companies, intel.plans]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+
+  - id: framework_facts
+    name: Messaging framework facts
+    layer: foundation
+    per: product
+    inputs: [intel.companies, intel.products, intel.plans, intel.compliance]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+    notes: Fills only the facts table. Positioning, pillars and personas stay written by the PMM.
+
+  # ---------- launch ----------
+  - id: positioning
+    name: Launch positioning
+    layer: launch
+    per: brief
+    tiers: [1]
+    inputs: [brief, framework, icp, personas, competitive_landscape]
+    format: md
+    owner: pmm
+    approvers: [pmm, pm]
+    gate: true          # every other launch asset waits for this approval
+
+  - id: blog_post
+    name: Blog post
+    layer: launch
+    per: brief
+    tiers: [1, 2]
+    inputs: [brief, framework, positioning]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+
+  - id: release_notes
+    name: Release notes
+    layer: launch
+    per: brief
+    tiers: [1, 2, 3]
+    inputs: [brief]
+    format: md
+    owner: pm
+    approvers: [pm]
+
+  - id: one_pager
+    name: Sales one-pager
+    layer: launch
+    per: brief
+    tiers: [1, 2]
+    inputs: [brief, framework, positioning, battlecard, icp]
+    format: md
+    owner: pmm
+    approvers: [pmm, sales_lead]
+
+  - id: social_posts
+    name: Social posts
+    layer: launch
+    per: brief
+    tiers: [1, 2, 3]
+    inputs: [brief, positioning]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+
+  - id: launch_email
+    name: Launch email
+    layer: launch
+    per: brief
+    tiers: [1, 2]
+    inputs: [brief, positioning, icp]
+    format: md
+    owner: pmm
+    approvers: [pmm]
+
+  - id: landing_page
+    name: Landing page copy
+    layer: launch
+    per: brief
+    tiers: [1]
+    inputs: [brief, framework, positioning, personas]
+    format: md
+    owner: pmm
+    approvers: [pmm, design]
+
+  - id: talk_track
+    name: Sales talk track and objection guide
+    layer: launch
+    per: brief
+    tiers: [1, 2]
+    inputs: [brief, positioning, battlecard, personas, intel.reviews]
+    format: md
+    owner: pmm
+    approvers: [pmm, sales_lead]
+
+  - id: internal_faq
+    name: Internal launch FAQ
+    layer: launch
+    per: brief
+    tiers: [1, 2]
+    inputs: [brief, positioning]
+    format: md
+    owner: pmm
+    approvers: [pm, support_lead]
+
+  - id: demo_script
+    name: Demo video script
+    layer: launch
+    per: brief
+    tiers: [1]
+    inputs: [brief, positioning, personas]
+    format: md
+    owner: pmm
+    approvers: [pmm, pm]
+
+  - id: press_release
+    name: Press release
+    layer: launch
+    per: brief
+    tiers: [1]
+    inputs: [brief, framework, positioning]
+    format: md
+    owner: comms
+    approvers: [pmm, comms, legal]
+
+  - id: pitch_deck
+    name: Launch pitch deck
+    layer: launch
+    per: brief
+    tiers: [1]
+    inputs: [brief, positioning, icp, battlecard, competitive_landscape]
+    format: pptx        # filled into the company's own deck template; see docs/deck-templates.md
+    owner: pmm
+    approvers: [pmm, sales_lead, design]

@@ -1,6 +1,8 @@
 # HYPOTHETICAL launch for practice. Loom is a real Atlassian product; this feature
 # and every number marked hypothetical are invented. Not an Atlassian announcement.
 # Sample brief 4 of 5: an enterprise launch where precise legal wording matters.
+company: atlassian
+product: loom
 id: loom-au-data-residency
 title: Data residency in Australia
 tier: 2

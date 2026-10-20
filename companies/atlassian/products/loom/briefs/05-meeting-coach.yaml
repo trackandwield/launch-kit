@@ -3,6 +3,8 @@
 # Sample brief 5 of 5: deliberately incomplete. The agents should name the gaps
 # (no proof, no date, unclear plans, no pricing decision, no CTA) instead of
 # filling them, and must not invent numbers to make the AI angle sound bigger.
+company: atlassian
+product: loom
 id: loom-meeting-coach
 title: Meeting coach
 tier: 1

@@ -58,8 +58,4 @@ Atlassian's voice is **bold, optimistic, and practical, with a wink**.
 
 **Inclusive writing:** follow https://atlassian.design/foundations/content/inclusive-writing.
 
-## Kit-specific rules (ours, not Atlassian's)
-
-- Only state facts in `framework/messaging-framework.md` or the brief. Name gaps instead of filling them.
-- Every asset carries the footer from `framework/messaging-framework.md`: these are unofficial concept assets, not Atlassian announcements.
-- Banned: revolutionary, game-changing, seamless, synergy, best-in-class, world-class, cutting-edge, unleash, supercharge, "single pane of glass".
+The kit's own rules (facts only, naming gaps, the disclaimer footer, banned words) are in `kit/rules.md` and apply to every company.

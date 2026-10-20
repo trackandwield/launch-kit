@@ -1,0 +1,9 @@
+# Copy to companies/<company>/company.yaml and fill in.
+name: ""                  # display name, e.g. Atlassian
+brand:
+  voice: brand/voice-and-style.md         # voice, tone and style rules (paths relative to this folder)
+  references: brand/style-references.md   # real examples per asset type
+  banned_words: []                        # company-specific, added to kit/rules.md's list
+disclaimer: ""            # footer on every asset; required when the launches are invented for a real company
+sources: []               # where the brand rules came from, with the date checked
+products: []              # folder names under products/
